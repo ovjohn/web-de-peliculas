@@ -1,3 +1,4 @@
+import { MoviesGrid } from "./components/MoviesGrid";
 
 export function App() {
   return (
@@ -5,6 +6,9 @@ export function App() {
       <header>
         Peliculas        
       </header>
+      <main>
+        <MoviesGrid />        
+      </main>
     </div>
   );
 }
